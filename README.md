@@ -1,0 +1,2 @@
+# .github
+Internal GitHub thingamabobs.
