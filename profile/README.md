@@ -1,2 +1,3 @@
-# Open Horizon ™️
+Open Horizon ™, known as Open Horizon Robotics (OHR), is a nonprofit open source organization that aims to democratize robotics education through the power of open-source technologies and initiatives by the community, to explore the far-reaching impacts of the field of robotics and educate students and professional alike.
 
+Consisting primarily of students in higher education institutions and young professionals, the OHR team strives to inculcate the values of open-source collaboration across all aspects of robotics development, especially focussing on how the open-source methodology can be applied not only to software but also to physical hardware and systems. Though our network of branches established in various educational institutions operated by students that believe in the same vision, we foster a welcoming platform for all enthusiasts from all walks of life to participate in this renaissance of open-source design and robotics.
