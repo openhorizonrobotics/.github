@@ -1,6 +1,8 @@
 # Contributing to Open Horizon
 
-Thank you for considering contributing to our project! We appreciate your time and effort! This document outlines the contribution process; whether you're reporting a bug, suggesting a feature, or submitting a pull request, we value your input and strive to make the contribution process as smooth as possible.
+Thank you for considering contributing to our project! 
+
+We appreciate your time and effort! This document outlines the contribution process; whether you're reporting a bug, suggesting a feature, or submitting a pull request, we value your input and strive to make the contribution process as smooth as possible.
 
 ## Table of Contents
 
@@ -26,13 +28,22 @@ If you need help, feel free to reach out by opening an issue or joining our disc
 
 ### Bug Reports
 
-If you find a bug, please open an issue and include:
+Filing an issue is a great way to contribute to the project! Bug reports help us identify and fix problems faster. If you’ve run into something unexpected, we’d love to hear about it. Before opening a new issue, please consider the following:
 
-- A clear and descriptive title.
-- Steps to reproduce the bug.
-- Expected and actual behavior.
-- Screenshots or logs, if applicable.
-- Any other relevant information.
+* **Is it really a bug?**
+  + Describe what you expected to happen versus what actually happened. This helps us understand the problem clearly.
+
+* **Include clear steps to reproduce**
+  + The more specific, the better! Walk us through how you encountered the bug so we can replicate it on our end.
+
+* **Add relevant details**
+  + Screenshots, logs, or error messages make debugging easier. If it’s related to a specific environment (e.g. OS, Python version), let us know.
+
+* **Check for duplicates**
+  + Use the search bar in the Issues tab to see if someone else has already reported it. If so, consider commenting there instead of creating a new issue.
+
+* **Give your issue a meaningful title**
+  + A clear, descriptive title helps us (and others) quickly understand what the issue is about.
 
 ### Feature Requests
 
