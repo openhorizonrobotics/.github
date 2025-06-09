@@ -47,13 +47,26 @@ Filing an issue is a great way to contribute to the project! Bug reports help us
 
 ### Feature Requests
 
-If you have an idea for a new feature, please open an issue and include:
+Got an idea to improve the project? Awesome! We welcome feature requests, and they help shape the future of the project. Before opening a new issue, please consider the following:
 
-- A clear and descriptive title.
-- A detailed description of the feature.
-- Any benefits or potential drawbacks.
-- Any other relevant information.
+* **Is this really a feature request?**
+  + Clearly differentiate it from a bug report or support question to help us categorize it correctly.
 
+* **Is there already an open issue for this?**
+  + Check the existing issues first. If you find a related one, feel free to add your input there instead of opening a duplicate.
+
+* **Provide a clear and descriptive title.**
+  + A specific and concise title helps maintainers quickly understand what you're suggesting.
+
+* **Explain the feature in detail.**
+  + Describe what the feature should do, who it’s for, and how it will help. The more context, the better!
+
+* **Outline any benefits or potential drawbacks.**
+  + Help us evaluate the impact and feasibility of the request by including pros and possible cons.
+
+* **Add any relevant information or examples.**
+  + Links, screenshots, mockups, or comparisons with other tools can help convey your idea more effectively.
+  
 ## Submitting Contributions
 
 1. **Fork the repository**: Click the "Fork" button at the top right of the repository page.
