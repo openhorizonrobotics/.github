@@ -128,13 +128,14 @@ Writing clear and consistent commit messages helps everyone understand the histo
 * **Use the present tense**
   + Describe what the commit does, not what it did.
 
-      ( ✅ "Add feature" ❌ "Added feature" ) 
+      ( ✅ "Add feature" ; ❌ "Added feature" ) 
 
 
 * **Write in the imperative mood**
   + Think of the message as a command.
 
-     ( ✅ "Move cursor to.." ❌ "Moves Cursor to.." )
+     ( ✅ "Move cursor to.." ; ❌ "Moves Cursor to.." )
+
 
 * **Keep the subject line concise**
   + Limit the first line (subject) to 72 characters or fewer. Use additional lines for details if needed.
@@ -149,9 +150,28 @@ Writing clear and consistent commit messages helps everyone understand the histo
 
 ### Code Style
 
-- Follow the language-specific style guide (e.g., PEP 8 for Python).
-- Use meaningful variable and function names.
-- Write comments to explain complex logic.
+Maintaining a consistent and clean codebase helps everyone collaborate better. When contributing code, please keep the following in mind:
+
+* **Follow the relevant style guide**
+  + Stick to the language-specific conventions.
+
+     ( Example: use [PEP 8](https://peps.python.org/pep-0008/) for Python ).
+
+
+* **Use clear and meaningful names**
+  + Choose variable, function, and class names that clearly describe their purpose.
+
+    ( Example: ✅ calculate_total() ; ❌ ct() )
+
+
+* **Write helpful comments**
+  + Add comments to clarify non-obvious or complex logic. Avoid stating the obvious, and focus on why something is done if it's not immediately clear.
+
+
+* **Keep code readable**
+  + Use consistent indentation, spacing, and structure to make your code easier to follow and maintain.
+
+
 
 ## Testing
 
