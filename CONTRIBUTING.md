@@ -33,17 +33,22 @@ Filing an issue is a great way to contribute to the project! Bug reports help us
 * **Is it really a bug?**
   + Describe what you expected to happen versus what actually happened. This helps us understand the problem clearly.
 
+    
 * **Include clear steps to reproduce**
   + The more specific, the better! Walk us through how you encountered the bug so we can replicate it on our end.
+
 
 * **Add relevant details**
   + Screenshots, logs, or error messages make debugging easier. If it’s related to a specific environment (e.g. OS, Python version), let us know.
 
+
 * **Check for duplicates**
   + Use the search bar in the Issues tab to see if someone else has already reported it. If so, consider commenting there instead of creating a new issue.
 
+
 * **Give your issue a meaningful title**
   + A clear, descriptive title helps us (and others) quickly understand what the issue is about.
+
 
 ### Feature Requests
 
@@ -52,42 +57,67 @@ Got an idea to improve the project? Awesome! We welcome feature requests, and th
 * **Is this really a feature request?**
   + Clearly differentiate it from a bug report or support question to help us categorize it correctly.
 
+
 * **Is there already an open issue for this?**
   + Check the existing issues first. If you find a related one, feel free to add your input there instead of opening a duplicate.
+
 
 * **Provide a clear and descriptive title.**
   + A specific and concise title helps maintainers quickly understand what you're suggesting.
 
+
 * **Explain the feature in detail.**
   + Describe what the feature should do, who it’s for, and how it will help. The more context, the better!
+
 
 * **Outline any benefits or potential drawbacks.**
   + Help us evaluate the impact and feasibility of the request by including pros and possible cons.
 
+
 * **Add any relevant information or examples.**
   + Links, screenshots, mockups, or comparisons with other tools can help convey your idea more effectively.
+
   
 ## Submitting Contributions
 
-1. **Fork the repository**: Click the "Fork" button at the top right of the repository page.
+1. **Fork the repository**: 
+
+    Click the "Fork" button at the top right of the repository page.
+
+
 2. **Clone your fork**: 
     ```sh
     git clone https://github.com/your-username/your-repo.git
     ```
+
+
 3. **Create a branch**: 
     ```sh
     git checkout -b feature/your-feature-name
     ```
-4. **Make your changes**: Implement your feature or fix the bug.
-5. **Commit your changes**: 
+
+
+4. **Make your changes**: 
+
+    Implement your feature or fix the bug.
+
+
+6. **Commit your changes**: 
     ```sh
     git commit -m "Add feature/fix: description of your changes"
     ```
-6. **Push to your branch**: 
+
+
+7. **Push to your branch**: 
     ```sh
     git push origin feature/your-feature-name
     ```
-7. **Create a Pull Request**: Go to the repository on GitHub and click "New Pull Request".
+
+
+8. **Create a Pull Request**: 
+
+    Go to the repository on GitHub and click "New Pull Request".
+
 
 ## Style Guides
 
