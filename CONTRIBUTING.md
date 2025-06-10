@@ -123,10 +123,29 @@ Got an idea to improve the project? Awesome! We welcome feature requests, and th
 
 ### Git Commit Messages
 
-- Use the present tense ("Add feature" not "Added feature").
-- Use the imperative mood ("Move cursor to..." not "Moves cursor to...").
-- Limit the first line to 72 characters or less.
-- Reference issues and pull requests liberally.
+Writing clear and consistent commit messages helps everyone understand the history and purpose of changes. When creating commits, keep the following in mind:
+
+* **Use the present tense**
+  + Describe what the commit does, not what it did.
+
+      ( ✅ "Add feature" ❌ "Added feature" ) 
+
+
+* **Write in the imperative mood**
+  + Think of the message as a command.
+
+     ( ✅ "Move cursor to.." ❌ "Moves Cursor to.." )
+
+* **Keep the subject line concise**
+  + Limit the first line (subject) to 72 characters or fewer. Use additional lines for details if needed.
+
+
+* **Reference issues or pull requests**
+  + Use issue references to link related issues or PRs.
+
+    ( Example: "Fix typo in README (#42)" )
+
+
 
 ### Code Style
 
