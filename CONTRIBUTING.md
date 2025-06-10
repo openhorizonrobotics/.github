@@ -175,17 +175,48 @@ Maintaining a consistent and clean codebase helps everyone collaborate better. W
 
 ## Testing
 
-- Write tests for your code.
-- Ensure all tests pass before submitting a pull request.
+* **Write meaningful tests**
+  + Make sure your code includes tests that cover core functionality and edge cases. This helps maintain code quality and prevents regressions.
 
+
+* **Ensure all tests pass before submitting a PR**
+  + Always run the full test suite before opening a pull request. Submitting passing tests builds trust and makes it easier to review your contribution.
+ 
+    
 ## Documentation
 
-- Update the README.md with details of changes to the interface, including new environment variables, exposed ports, useful file locations, and container parameters.
-- Ensure that any new code is documented.
+* **Document interface changes**
+  + If your changes affect how users interact with the project (e.g., API endpoints, CLI commands, configuration options), make sure to clearly document them in the README.md.
+
+
+* **Include details about:**
+
+  + New environment variables
+    + *Describe what each variable does and provide default values if applicable.*
+
+  + Exposed ports
+    + *List any additional ports the application listens on and why they were added.*
+
+  + File paths and key locations
+    + *Note any new or modified file locations that may be relevant to users or developers.*
+
+  + Container parameters
+    + *If your update changes Docker/container behavior, update relevant flags, volumes, or parameters in usage instructions.*
+
+
+* **Ensure new code is documented**
+  + Add inline comments or docstrings explaining the purpose and logic of your code. This makes it easier for others to maintain and build on your work.
 
 ## Community
 
-- Join our discussion forum to ask questions and engage with other contributors.
-- Attend our monthly community meetings (details in the forum).
+* ***Get involved in discussions***
+  + Join our discussion forum to ask questions, share ideas, and collaborate with fellow contributors. It's a great place to get help and stay updated on ongoing work.
 
-Thank you for your contributions!
+* ***Attend community meetings***
+  + We host monthly community calls to discuss updates, roadmap plans, and open issues. Check the forum for upcoming meeting details and how to join.
+
+
+
+🎉 Thank you for being part of the project!
+
+Every contribution, big or small, helps us move forward — and we appreciate your time, effort, and creativity.
