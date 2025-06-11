@@ -2,7 +2,11 @@
 
 Thank you for using our projects! Whether you're just getting started or contributing actively, this guide outlines how to get support effectively.
 
+
+
 > **Note:** before participating in our community, please read and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) in all interactions. We expect everyone to uphold these standards.
+
+
 
 # Before Asking for Help
 Please check the following resources before submitting a request:
