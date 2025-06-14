@@ -70,15 +70,13 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
 
-  - type: markdown
+  - type: textarea
+    id: screenshot
     attributes:
-      value: |
-        ### 🖼️ Screenshots (if applicable)
-        If your issue involves a UI bug or visual problem, please include screenshots.
+      label: Screenshots
+      placeholder: |
+        Attach any screenshots that might help us understand the problem better.
 
-        👉 You can drag and drop images into the comment box **after submitting** the form or **paste them directly** while filling it.
-
-        ⚠️ *GitHub doesn't support uploading screenshots via this form — use the comment area below the form after submission if needed.*
 
   - type: textarea
     id: environment
