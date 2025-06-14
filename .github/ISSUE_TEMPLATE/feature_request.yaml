@@ -1,0 +1,75 @@
+name: Feature Request
+description: Suggest an idea or improvement for this project.
+title: "[Feature]: "
+labels:
+  - enhancement
+  - needs-triage
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! Please take a moment to fill this out thoughtfully.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Let us know how we can reach you for follow-up.
+      placeholder: eg:- yourname@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature summary
+      description: Explain the feature you want to be included in brief.
+      placeholder: Please add something that might be able to...
+    validations:
+      required: true
+  - type: textarea
+    id: Problem 
+    attributes:
+      label: Problem
+      description: If the feature is related to a problem you faced, describe in detail.
+      placeholder: While running this.. this occured..
+    validations:
+      required: false
+  - type: textarea
+    id: working
+    attributes:
+      label: Explain how the feature works, or how you want it to work
+      placeholder: This works because... I want this to work like...
+    validations:
+      required: true
+  - type: textarea
+    id: alternate
+    attributes:
+      label: Alternative solution
+      description: Have you thought of another solution? Please let us know!
+      placeholder: Instead of this... that might work...
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      placeholder: Anything you'd like for us to know.
+    validations:
+      required: false
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Can you help?
+      description: If you submit this field, we might contact you via the mail address you've mentioned above.
+      options:
+        - label: I'd like to help out on this issue
+          required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
