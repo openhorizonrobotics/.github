@@ -17,16 +17,8 @@ body:
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
       required: true
+
   - type: dropdown
     id: version
     attributes:
@@ -48,12 +40,53 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+        - Other
+      validations:  
+        required: true
+    - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+    - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        Explain in detailed steps on how to we can reproduce the bug on our software.
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+
+      
+      - type: markdown
+  attributes:
+    value: |
+      ### 🖼️ Screenshots (if applicable)
+      If your issue involves a UI bug or visual problem, please include screenshots.
+
+      👉 You can drag and drop images into the comment box **after submitting** the form or **paste them directly** while filling it.
+
+      ⚠️ *GitHub doesn't support uploading screenshots via this form — use the comment area below the form after submission if needed.*
+
+
+
+  -  type: textarea
+     id: environment
+  description: |
+    Please provide details about your setup:
+    - OS (e.g. Ubuntu 20.04)
+    - Python / ROS version
+    - Hardware (e.g. robot model, sensor, device)
+    - Container / Docker image, if used
+  validations:
+    required: true
   - type: checkboxes
     id: terms
     attributes:
