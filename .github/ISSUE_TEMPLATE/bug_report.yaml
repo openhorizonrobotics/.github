@@ -86,7 +86,7 @@ body:
      - Hardware (e.g. robot model, sensor, device)
      - Container / Docker image, if used
     validations:
-     required: true
+      required: true
   - type: checkboxes
     id: terms
     attributes:
