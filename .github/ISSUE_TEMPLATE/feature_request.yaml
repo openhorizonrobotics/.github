@@ -32,14 +32,14 @@ body:
     attributes:
       label: Problem
       description: If the feature is related to a problem you faced, describe in detail.
-      placeholder: While running this.. this occured..
+      placeholder: While running this...
     validations:
       required: false
   - type: textarea
     id: working
     attributes:
       label: Explain how the feature works, or how you want it to work
-      placeholder: This works because... I want this to work like...
+      placeholder: This works because... 
     validations:
       required: true
   - type: textarea
@@ -47,7 +47,7 @@ body:
     attributes:
       label: Alternative solution
       description: Have you thought of another solution? Please let us know!
-      placeholder: Instead of this... that might work...
+      placeholder: Instead of this... 
     validations:
       required: false
   - type: textarea
