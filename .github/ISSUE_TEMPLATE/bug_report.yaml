@@ -29,17 +29,17 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: browsers
+  - type: textarea
+    id: environment
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-        - Other
+      label: Environment Details
+      description: |
+        Please provide details about your setup:
+        - OS (e.g. Ubuntu 20.04)
+        - Browser(e.g. Chrome, Safari)
+        - Python / ROS version
+        - Hardware (e.g. robot model, sensor, device)
+        - Container / Docker image, if used
     validations:
       required: true
 
@@ -74,18 +74,7 @@ body:
         Attach any screenshots that might help us understand the problem better.
 
 
-  - type: textarea
-    id: environment
-    attributes:
-      label: Environment Details
-      description: |
-        Please provide details about your setup:
-        - OS (e.g. Ubuntu 20.04)
-        - Python / ROS version
-        - Hardware (e.g. robot model, sensor, device)
-        - Container / Docker image, if used
-    validations:
-      required: true
+  
 
   - type: checkboxes
     id: terms
