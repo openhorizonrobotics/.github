@@ -19,6 +19,29 @@ body:
       placeholder: eg:- yourname@example.com
     validations:
       required: false
+   - type: dropdown
+     id: user-type
+     attributes:
+       label: What best describes you?
+       description: This helps us understand who our users are and how they're using the project.
+       options:
+         - Student
+         - Educator / Professor
+         - Hobbyist
+         - Researcher
+         - Developer / Engineer
+         - Contributor / Maintainer
+         - Organization / Institution Representative
+         - Other
+     validations:
+       required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+    validations:
+      required: true
   - type: textarea
     id: summary
     attributes:
