@@ -121,6 +121,15 @@ Got an idea to improve the project? Awesome! We welcome feature requests, and th
 
 ## Style Guides
 
+
+***We follow the [Google Style Guide](https://google.github.io/styleguide/) for all our codebases.***
+
+Please ensure that your code adheres to these standards before submitting a pull request. This helps maintain consistency, readability, and quality across the project.
+
+✏️ Use appropriate linters or formatters for your language (e.g., clang-format, gofmt, black, or eslint) configured to align with the Google Style Guide.
+
+***If you're unsure about a style decision, feel free to ask or open a draft PR — we're happy to help!***
+
 ### Git Commit Messages
 
 Writing clear and consistent commit messages helps everyone understand the history and purpose of changes. When creating commits, keep the following in mind:
@@ -146,6 +155,7 @@ Writing clear and consistent commit messages helps everyone understand the histo
 
     ( Example: "Fix typo in README (#42)" )
 
+***Please go through the [Google Code Samples](https://developers.google.com/style/code-samples) as we follow most of their guidelines on our projects***
 
 
 ### Code Style
