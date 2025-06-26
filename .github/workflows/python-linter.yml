@@ -1,0 +1,29 @@
+name: Python Linter (Global)
+
+on:
+  workflow_call:  
+
+jobs:
+  lint:
+    name: Run Python Linter
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8
+
+      - name: Run flake8 linter
+        run: |
+          echo "Running flake8 linter on Python files..."
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics 
+          echo "Linter has found issues, please fix immediately and run again."
