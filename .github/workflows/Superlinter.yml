@@ -40,14 +40,4 @@ jobs:
           VALIDATE_SHELL_SHFMT: true
           VALIDATE_DOCKERFILE_HADOLINT: true
 
-      - name: Commit Linter Fixes
-        if: always()
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          if ! git diff --quiet; then
-            git add .
-            git commit -m "chore: auto-fix lint errors"
-            git push
-          fi
 
