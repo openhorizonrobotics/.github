@@ -1,11 +1,13 @@
 name: Super-Linter (Global)
 
 on:
-  workflow_call:
-    inputs:
-      languages:
-        required: false
-        type: string
+  push:
+    branches:
+      - main
+      - "**"
+  pull_request:
+    branches:
+      - main
 
 jobs:
   super-lint:
@@ -16,7 +18,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
+        with:
+          fetch-depth: 0
 
       - name: Run Super-Linter
         uses: super-linter/super-linter@v7
@@ -36,3 +39,15 @@ jobs:
           VALIDATE_GITHUB_ACTIONS: true
           VALIDATE_SHELL_SHFMT: true
           VALIDATE_DOCKERFILE_HADOLINT: true
+
+      - name: Commit Linter Fixes
+        if: always()
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          if ! git diff --quiet; then
+            git add .
+            git commit -m "chore: auto-fix lint errors"
+            git push
+          fi
+
