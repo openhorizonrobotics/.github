@@ -26,5 +26,13 @@ jobs:
           DEFAULT_BRANCH: main
           IGNORE_GITIGNORED_FILES: true
           LINTER_RULES_PATH: .github/linters
+          VALIDATE_PYTHON_BLACK: true
           FIX_PYTHON_BLACK: true
           VALIDATE_PYTHON_FLAKE8: true
+          VALIDATE_YAML: true
+          VALIDATE_MARKDOWN: true
+          VALIDATE_JAVASCRIPT_ES: true
+          VALIDATE_JSON: true
+          VALIDATE_GITHUB_ACTIONS: true
+          VALIDATE_SHELL_SHFMT: true
+          VALIDATE_DOCKERFILE_HADOLINT: true
