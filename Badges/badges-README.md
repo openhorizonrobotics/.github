@@ -63,7 +63,11 @@ Use prebuilt badge templates such as:
 | 🚀 Last Commit | `https://img.shields.io/github/last-commit/<user>/<repo>` |
 
 You can find multiple such badge templates on shields.io and customise them.
+
+
 <img width="249" alt="image" src="https://github.com/user-attachments/assets/037d2d0f-0832-4b65-9f73-2da88186c7e8" />
+
+
 <img width="275" alt="image" src="https://github.com/user-attachments/assets/4e1ca1b7-5b4a-42b2-90d3-66fed2dc3d04" />
 
 
