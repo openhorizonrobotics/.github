@@ -1,3 +1,7 @@
+
+[![Discord](https://img.shields.io/discord/1375311749812588626?logo=discord&label=Join%20Our%20Discord!&labelColor=black)](https://discord.gg/CW2qNKkSpH)
+
+
 ### 🌐 About Open Horizon Robotics (OHR)
 Open Horizon™, better known as Open Horizon Robotics (OHR), is a nonprofit open-source organization on a mission to democratize robotics education. We believe in the transformative power of community-driven, open-source technologies—and we're committed to making robotics accessible to students, educators, and professionals alike.
 
