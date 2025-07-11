@@ -116,3 +116,14 @@
   ```md
   ![GitHub followers](https://img.shields.io/github/followers/openhorizonrobotics?style=flat&logo=github&logoColor=white&logoSize=auto&labelColor=black&color=lightgreen)
   ```
+* Contributor count for each project (dynamic)
+   + mapmit
+     
+       [![GitHub contributors](https://img.shields.io/github/contributors/openhorizonrobotics/mapmit?logo=github&logoColor=white&labelColor=black)
+](http://github.com/openhorizonrobotics/mapmit)
+     
+    ```md
+    [![GitHub contributors](https://img.shields.io/github/contributors/openhorizonrobotics/mapmit?logo=github&logoColor=white&labelColor=black)
+  ](http://github.com/openhorizonrobotics/mapmit)
+    ```
+  + 
